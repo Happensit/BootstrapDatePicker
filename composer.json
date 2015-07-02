@@ -3,8 +3,15 @@
     "description":"Date/time picker widget based on Twitter bootstrap with automatic format timestamp",
     "homepage": "https://github.com/happensit",
     "type": "yii2-extension",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Happensit/BootstrapDatePicker"
+      }
+    ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
         "bower-asset/eonasdan-bootstrap-datetimepicker": "^4.7@dev"
     },
     "authors": [
@@ -16,7 +23,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "happensit\\datepicker\\": "widget"
+        "happensit\\datepicker\\": "datepicker"
       }
     },
     "extra": {
