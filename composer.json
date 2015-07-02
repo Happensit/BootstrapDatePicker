@@ -1,9 +1,10 @@
 {
-    "name": "happensit/bootstrap-date-picker",
+    "name": "happensit/bootstrap-date-picker-widget",
     "description":"Date/time picker widget based on Twitter bootstrap with automatic format timestamp",
     "homepage": "https://github.com/happensit",
     "type": "yii2-extension",
     "require": {
+        "yiisoft/yii2": "~2.0.0",
         "bower-asset/eonasdan-bootstrap-datetimepicker": "^4.7@dev"
     },
     "authors": [
@@ -13,6 +14,11 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+      "psr-4": {
+        "happensit\\datepicker\\": ""
+      }
+    },
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",

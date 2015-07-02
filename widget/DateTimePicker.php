@@ -1,8 +1,7 @@
 <?php
-namespace app\modules\backend\widgets;
+namespace happensit\datepicker;
 
 use Yii;
-use app\modules\backend\assets\DateTimePickerAsset;
 use yii\widgets\InputWidget;
 use yii\helpers\Html;
 use yii\helpers\Json;
