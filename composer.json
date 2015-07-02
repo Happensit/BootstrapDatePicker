@@ -16,7 +16,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "happensit\\datepicker\\": ""
+        "happensit\\datepicker\\": "widget"
       }
     },
     "extra": {
